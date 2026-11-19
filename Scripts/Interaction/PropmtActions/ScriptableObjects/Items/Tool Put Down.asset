@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ee17699bd103047911dc74dc63e265, type: 3}
+  m_Name: Tool Put Down
+  m_EditorClassIdentifier: 
+  actionName: Put the tool down
+  actionDescription: 
+  actionCost: 0
+  doesGetRidOfSomething: 0
+  actionMinutes: 0
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - Done with this.
+  - Don't need this right now.
+  - This is a better spot for it.
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: de7cb96dced724c49a8040b953bdc268, type: 3}

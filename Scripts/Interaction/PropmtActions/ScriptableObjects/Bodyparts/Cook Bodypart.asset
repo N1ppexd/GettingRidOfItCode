@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d73e43b22939ea4ca6bbeb115048998, type: 3}
+  m_Name: Cook Bodypart
+  m_EditorClassIdentifier: 
+  actionName: Cook the bodypart
+  actionDescription: 
+  actionCost: 20
+  doesGetRidOfSomething: 1
+  actionMinutes: 60
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 1
+  showCount: 1
+  dialogues:
+  - Channeling my inner Hannibal Lecter.
+  - No point in wasting free meat.
+  - It smells surprisingly nice.
+  failDialogue: I need a something small to cook...
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 8312a396aee7f8e4585b0c9e08bca7da, type: 3}

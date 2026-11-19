@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f8257ff99266b4f95fdcc8ccd66363, type: 3}
+  m_Name: Cut Into Pieces
+  m_EditorClassIdentifier: 
+  actionName: Cut into pieces
+  actionDescription: 
+  actionCost: 2
+  doesGetRidOfSomething: 0
+  actionMinutes: 50
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - Bite sized pieces are better.
+  failDialogue: Cut it with what?
+  hasSound: 1
+  sound: {fileID: 8300000, guid: a874e6114441d1c40a83037825fabb74, type: 3}

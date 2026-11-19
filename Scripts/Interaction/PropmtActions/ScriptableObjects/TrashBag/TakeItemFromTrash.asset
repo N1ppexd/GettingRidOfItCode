@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bb732b0b3d1c64884e5b2fa8d927e9, type: 3}
+  m_Name: TakeItemFromTrash
+  m_EditorClassIdentifier: 
+  actionName: Take Item From Trash
+  actionDescription: 
+  actionCost: 0
+  doesGetRidOfSomething: 0
+  actionMinutes: 3
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 1
+  showCount: 1
+  dialogues:
+  - Oh god, it smells worse now.
+  - That's a smell I won't soon forget.
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 1f9705021ab7f4a46946fa26504dc7b4, type: 3}

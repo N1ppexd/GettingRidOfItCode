@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303d74be68cbe534d9094ec2cbf7675a, type: 3}
+  m_Name: Eat
+  m_EditorClassIdentifier: 
+  actionName: Eat
+  actionDescription: 
+  actionCost: -10
+  doesGetRidOfSomething: 0
+  actionMinutes: 15
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - Tastes good!
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 53c7c398c6352e541a7db14cc933d9a5, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a7ba9d74854e34199c58bf79c25831, type: 3}
+  m_Name: PutDownTrash
+  m_EditorClassIdentifier: 
+  actionName: Put Down Trash
+  actionDescription: 
+  actionCost: 5
+  doesGetRidOfSomething: 0
+  actionMinutes: 1
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 1
+  showCount: 1
+  dialogues:
+  - This has to wait.
+  - I can't stand the smell.
+  - I need a break.
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 747e37ae7fdd77744ae48abddb67bc98, type: 3}

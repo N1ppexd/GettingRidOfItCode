@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ca4bf30b8635c41b9e866b422e53ed, type: 3}
+  m_Name: BringTarshOut
+  m_EditorClassIdentifier: 
+  actionName: Bring Trash Out
+  actionDescription: 
+  actionCost: 0
+  doesGetRidOfSomething: 1
+  actionMinutes: 10
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - "That\u2019s one less thing to worry about.\r"
+  - Glad it's no longer stinking up the whole place.
+  failDialogue: I don't have any trash
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 941f57ec484dab14085a1e587ef1e107, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa568c71b040ff41928cce63a226722, type: 3}
+  m_Name: BloodInteract
+  m_EditorClassIdentifier: 
+  actionName: Clean
+  actionDescription: 
+  actionCost: -3
+  doesGetRidOfSomething: 0
+  actionMinutes: 5
+  canBeNotShown: 1
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - That should help imrove the smell at least a little.
+  - He was such a chore even when alive. Ugh.
+  - How much blood can one corpse have?
+  failDialogue: With what? I can't just wipe this down with my sleeve or something.
+  hasSound: 1
+  sound: {fileID: 8300000, guid: b2154aa13caf7fd46be784acbcb99f78, type: 3}
+  requireItem: 1
+  itemType: 1
+  interactOnOrOff: 1

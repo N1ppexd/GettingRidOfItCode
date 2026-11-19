@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2cd485c2e5b5f4ca9ddc43f9b9bd06, type: 3}
+  m_Name: PutItemInCloset
+  m_EditorClassIdentifier: 
+  actionName: Put item in the closet
+  actionDescription: 
+  actionCost: 2
+  doesGetRidOfSomething: 0
+  actionMinutes: 3
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 1
+  showCount: 1
+  dialogues:
+  - There it goes
+  failDialogue: Put what in?
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 30f23a0b17b56d04fbe98285598263b3, type: 3}
+  acceptedItemTypes: 00000000

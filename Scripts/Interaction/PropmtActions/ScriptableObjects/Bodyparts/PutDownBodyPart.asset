@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ee17699bd103047911dc74dc63e265, type: 3}
+  m_Name: PutDownBodyPart
+  m_EditorClassIdentifier: 
+  actionName: Put Down
+  actionDescription: 
+  actionCost: 0
+  doesGetRidOfSomething: 0
+  actionMinutes: 1
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 1
+  showCount: 1
+  dialogues:
+  - That's a better spot. Probably.
+  - This can wait.
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: 41eb986e358ba1b43b9f18d584d8013b, type: 3}

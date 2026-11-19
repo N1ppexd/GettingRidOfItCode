@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae650ceedb6ab84b8a97550a8ce331c, type: 3}
+  m_Name: Tool Pick Up
+  m_EditorClassIdentifier: 
+  actionName: Pick up tool
+  actionDescription: 
+  actionCost: 0
+  doesGetRidOfSomething: 0
+  actionMinutes: 0
+  canBeNotShown: 0
+  hasDialogue: 1
+  showAlways: 0
+  showCount: 1
+  dialogues:
+  - This could be useful.
+  - I need this.
+  - It's coming with me.
+  failDialogue: 
+  hasSound: 1
+  sound: {fileID: 8300000, guid: c7b029afe1b5e2d49a265c0baa023b17, type: 3}
