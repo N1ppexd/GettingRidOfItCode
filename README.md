@@ -26,3 +26,5 @@ GettingRidOfItCode/
 ├── README.md
 └── .gitignore
 ```
+
+Only the scripts part of the project is included in this repository. The assets, prefabs, and scenes are not included.
